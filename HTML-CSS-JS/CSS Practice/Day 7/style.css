@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.children {
+  height: 100px;
+  flex-basis: 100px;
+}
+
+#container {
+  height: 70vh;
+  width: 70vw;
+  background-color: beige;
+  margin-top: 150px;
+
+  display: flex;
+}
+
+#orange {
+  flex: 2 5 100px;
+}
+
+#green {
+  flex: 2 5 100px;
+}
+
+/* 
+#purple {
+  order: 1;
+}
+
+
+#yellow {
+    align-self: flex-end;
+} */

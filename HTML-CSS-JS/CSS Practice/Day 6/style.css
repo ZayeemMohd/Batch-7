@@ -1,0 +1,70 @@
+/* h1 {
+  color: rgb(82, 82, 53);
+  text-align: center;
+}
+
+#box {
+  height: 300px;
+  width: 300px;
+
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+
+  background-size: cover;
+
+  margin: 0 15px;
+  border-radius: 20px;
+  display: inline-block; */
+
+/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+/* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+
+/* button {
+  height: 100px;
+  width: 250px;
+  background-image: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D");
+  background-size: cover;
+}
+
+#child-box {
+  height: 200px;
+  width: 200px;
+  background-color: rgba(0, 0, 0);
+  border: 2px solid white;
+  opacity: 0.4;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+} */
+
+#box {
+  height: 100px;
+  width: 100px;
+
+  background-color: orange;
+  margin: 0 auto;
+
+  transition:
+    transform 2s linear,
+    margin 2s linear,
+    border-radius 2s linear;
+
+  /* transition-property: ;
+  transition-duration: ;
+  transition-timing-function: ;
+  transition-delay: ; */
+
+  /* transition:
+    background-color 1s linear 0s,
+    border-radius 1s linear 0s; */
+}
+
+#box:hover {
+  transform: scale(1.5) rotate(360deg) skew(20deg) translateX(-20px);
+  margin-top: 300px;
+  border-radius: 50%;
+  /* background-color: brown;
+
+  border-radius: 20% 50%; */
+}

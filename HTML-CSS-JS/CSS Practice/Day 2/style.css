@@ -1,0 +1,32 @@
+#heading1 {
+  /* text-decoration-line: overline;
+  text-decoration-color: blue;
+  text-decoration-style: wavy; */
+
+  /* text-decoration: overline blue wavy; */
+
+  /* text-decoration: line-through wavy red; */
+
+  /* letter-spacing: normal;
+
+  font-family: monospace;
+
+  text-transform: none; */
+
+  text-transform: uppercase;
+  text-decoration: double underline teal;
+  color: #ffa511;
+  font-family: "League Spartan", sans-serif;
+  text-align: center;
+  font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5;
+}
+
+p {
+  letter-spacing: 1.5px;
+  line-height: 1;
+  text-transform: capitalize;
+  font-size: xx-small;
+}

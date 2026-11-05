@@ -1,0 +1,170 @@
+/* #box {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+
+  animation-name: color-animation;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+h1 {
+  animation: font-animation 2s linear 0s infinite normal;
+}
+
+@keyframes color-animation {
+  from {
+    background-color: blue;
+    border-radius: 0px;
+    transform: scale(1);
+    margin-left: 0px;
+  }
+  to {
+    background-color: yellow;
+    border-radius: 50%;
+    transform: scale(2);
+    margin-left: 600px;
+  }
+} */
+
+/* @keyframes font-animation {
+  from {
+    font-size: 16px;
+  }
+  to {
+    font-size: 40px;
+  }
+} */
+
+/* .pulse-button {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+
+  /* animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; */
+
+/* animation: pulse 3s ease-in-out infinite normal;
+} */
+
+/* @keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.7);
+  }
+  25% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(221, 8, 8, 0.7);
+  }
+  100% {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+} */
+
+/* 0-400px */
+/* @media (max-width: 400px) {
+  h1 {
+    background-color: red;
+  }
+} */
+
+/* 800-infite */
+/* @media (orientation: portrait) {
+  h1 {
+    background-color: red;
+  }
+}
+
+
+
+@media (orientation: landscape) {
+  h1 {
+    background-color: green;
+  }
+}
+
+
+@media (max-width: 1100px){
+    button {
+        display: none;
+    }
+} */
+/* 
+.navbar {
+  background-color: #333;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 30px;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+} */
+
+/* mobile styling */
+/* @media (max-width: 500px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+/* Tablet styling */
+/* @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+} */
+
+div {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+
+  overflow: auto;
+}
+
+#box1 {
+  background-color: rgba(255, 0, 0);
+  position: relative;
+  top: 200px;
+  z-index: 20;
+}
+
+#box2 {
+  background-color: blue;
+  position: relative;
+  z-index: 10;
+}

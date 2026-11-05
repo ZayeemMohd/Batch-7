@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+div {
+  height: 200px;
+  width: 200px;
+
+  background-color: brown;
+
+  border: 4px solid black;
+
+  
+  border-radius: 10% 20% 30% 40%;
+
+
+  margin: 10px;
+}
+
+/* h1 {
+  background-color: black;
+  color: white;
+}
+
+#main-heading {
+  background-color: red;
+  color: blue;
+}
+
+.heading {
+  background-color: beige;
+  color: crimson;
+}
+
+h2 {
+  color: brown;
+  background-color: gray;
+}
+
+#sub-heading {
+  color: black;
+  background-color: white;
+} */
+/* 
+h2 {
+    background-color: red;
+}
+
+div h2 {
+    background-color: yellow;
+}
+
+#container h2 {
+    background-color: green;
+}
+
+#sub-heading {
+    background-color: blue;
+}
+
+#container #sub-heading {
+    background-color: brown;
+}
+
+body #container #sub-heading {
+    background-color: darkmagenta;
+}
+
+#container .heading2 {
+    background-color: chocolate;
+} */
+
+#main-heading {
+  background-color: blue;
+}
+
+/* a {
+  background-color: red;
+
+  padding: 10px;
+
+  /* 
+  border-color: black;
+  border-style: solid;
+  border-width: 1px; 
+  */
+/* border: 1px solid black;
+
+  margin: 10px */
+/* } */
+
+h2 {
+  border: 1px solid black;
+}
+
+/* .text {
+  text-align: center;
+  background-color: blueviolet;
+}
+
+.heading {
+   
+  background-color: blue;
+} */
+
+/* 
+
+very High: inline-css
+
+Highest: id
+medium: class
+low :  element/tag
+
+very low: universal
+*/
+
+/* #main-heading {
+  background-color: brown !important;
+}
+
+#main-heading {
+  background-color: red;
+  color: white;
+}
+
+#main-heading {
+  background-color: black;
+} */
+
+h2 {
+  margin: 20px;
+  border: 3px solid black;
+  padding: 20px;
+
+  height: 40px;
+  width: 400px;
+}
+
+img {
+  width: 200px;
+  /* height: 200px; */
+
+  /* padding: 20px;
+
+  border: 2px solid black;
+
+  margin: 30px; */
+}

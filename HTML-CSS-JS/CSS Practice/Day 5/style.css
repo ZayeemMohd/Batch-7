@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* h1 {
+  height: 100px;
+  width: 400px;
+  border: 1px solid black;
+  display: inline;
+}
+
+a {
+  border: 1px solid black;
+  height: 100px;
+  width: 400px;
+}
+
+body {
+  /* color: brown;
+  font-family: cursive;
+  font-size: x-large;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  letter-spacing: 20px; */
+
+/* border: 1px solid black;
+  height: 700px;
+  width: 700px;
+  margin: 20px;
+  padding: 20px;
+  background-color: beige; */
+/* } */
+
+/* .container {
+  font-family: cursive;
+  color: chocolate;
+} */
+/* 
+#form-container {
+  background-color: yellow;
+  color: brown;
+}
+
+input {
+  background-color: inherit;
+}
+
+button {
+  background-color: inherit;
+  color: inherit;
+}
+
+span {
+  border: 2px solid blue;
+  padding: 20px;
+  margin: 20px;
+  display: inline-block;
+}  */
+/* 
+button {
+  display: inline-block;
+  padding: 20px;
+  margin: 20px;
+} */
+
+/* #container {
+  height: 200px;
+  width: 500px;
+  background-color: brown;
+  font-size: 10px;
+} */
+
+/* 16px */
+/* 
+#box1 {
+  background-color: blue;
+  font-size: 1.5rem; */
+/* 24px */
+/* } */
+
+/* #box2 {
+  background-color: blue;
+  font-size: 1.5rem; */
+/* 24px */
+/* } */
+
+/* #box3 {
+  background-color: blue;
+  font-size: 1.5rem; */
+/* 24px */
+/* } */
+
+#section-1 {
+  height: 580px;
+  width: 95vw;
+  background-color: black;
+  margin: 110px auto;
+  border-radius: 25px;
+  background-image: url("https://vj-prod-website-cms.s3.ap-southeast-1.amazonaws.com/depositphotos669042260xl-1734400332096.jpg");
+  background-size: cover;
+}
+
+#section-1 > h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
