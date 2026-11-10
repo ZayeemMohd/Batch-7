@@ -94,9 +94,74 @@
 // console.log("hello world");
 // console.log(true);
 
-let msg = `It's a rainy day`;
+// let msg = `It's a rainy day`;
 
-console.log(msg, "Hi", 22, false);
+// console.log(msg, "Hi", 22, false);
+
+// console.log("Sum is:", 22 + 22)
+
+// let userName = "Mohd";
+
+// let msg = "Hello userName 2 + 2 ";
+
+// let result = 2 + 2;
+
+// console.log(result);
+
+// console.log(msg);
+
+// let msg = `Hello ${userName}`;
+
+// let msg1 = "Hello " + userName;
+
+// console.log(msg1);
+
+// let item = "mobile phone";
+
+// let cost = 80000;
+
+// let msg = "The cost of item: " + item + " is ₹" + cost + "/- only.";
+// let msg1 = `The cost of item: ${item} is ₹${cost + 10}/- only. `;
+
+// console.log(msg);
+// console.log(msg1);
+
+// console.log(5 == 5); // true
+
+// console.log("hello" == "hello "); // false
+
+// console.log(5 == "five")
+
+// loosly equality
+// console.log(5 == "5"); // true
+// only check value not data type
+
+// strict equality
+// console.log(5 === "5")
+// check value as well as check data type
+
+// console.log(5 === "5"); //true
+
+// console.log(0 === false) // true
+
+// console.log(1 == true)
+
+// console.log("secret123" === "secret125")
+
+// console.log("heLlo" > "hello"); // true
+//  h > H
+// 104 > 72
+// true
 
 
-console.log("Sum is:", 22 + 22)
+// e > E
+// true
+
+
+let minPasswordLength = 10;
+
+let userPasssword = "secret12345"
+
+
+console.log(userPasssword.length >= minPasswordLength)
+// 9 >= 10
