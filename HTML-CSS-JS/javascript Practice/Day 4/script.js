@@ -106,14 +106,241 @@
 
 // console.log(name.slice(-1));
 
-let message = "I love apple pie and apple juice";
+// let message = "I love apple pie and apple juice";
 
-// const newMessage = message.replaceAll("apple", "");
+// // const newMessage = message.replaceAll("apple", "");
 
-// console.log(newMessage);
+// // console.log(newMessage);
 
-let result = message.substring(
-  message.indexOf("pie"),
-  message.indexOf("pie") + 3,
-);
-console.log(result);
+// let result = message.substring(
+//   message.indexOf("pie"),
+//   message.indexOf("pie") + 3,
+// );
+// console.log(result);
+
+// let message = "     hello.     ";
+
+// let new_message = message.trim();
+
+// console.log(message);
+
+// console.log(new_message);
+
+// let userEmail = prompt("Enter the email: ")
+
+// let finalUserEmail = userEmail.trim()
+
+// alert(finalUserEmail)
+
+// let msg = "hello world";
+
+// let index = msg.indexOf("l");
+
+// console.log(index);
+
+// let newMsg = msg.toUpperCase();
+
+// console.log(newMsg);
+
+// let msg = "     hello world";
+
+// let result = msg.trim().toUpperCase();
+
+// console.log(result);
+
+// let msg = "javascript";
+
+// let newMsg = msg.replace("java", "python");
+
+// console.log(newMsg);
+
+// let newMsg = msg.slice(4);
+
+// console.log(newMsg);
+
+// let msg = "I love apple and I love apple pie";
+
+// let newMsg = msg.replaceAll("apple", "orange");
+
+// console.log(newMsg);
+
+// let student2 = "Abdul"
+
+// let student4 = "isamail"
+
+// let student1 = "Khalid"
+
+// let student3 = "sam"
+
+// array - linear way of storing data
+
+// let studentArr = ["Abdul",  "isamail", "Khalid", "sam"]
+
+// let fruitsArr = ["apple", "banana", "mango", "grapes"]
+
+// let carsArr = ["BMW", "AUDI", "SUZUKI", "MAHINDRA", "TATA"]
+
+// let marksArr = [22, 56, 90, 10]
+
+// let alphabetArr = ['a', 'b', 'c', 'd']
+
+// let isPresentArr = [true, false, true, false]
+
+// //
+// let studentDetails = ["ABC", "charminar, hyderabad, telangana", 90, true]
+
+// let fruit1 = "apple"
+
+// let fruit2 = "banana"
+
+// let fruit3 = "orange"
+
+// let fruits = [fruit1, fruit2, fruit3]
+
+// console.log(fruits)
+
+// let city = "hyderabad";
+// city[0]; // h
+
+// console.log(city.length);
+
+// index = 0
+// let fruits = ["apple", "banana", "mango"];
+
+// console.log(fruits.length)
+
+// print last element of an array
+
+// console.log(fruits[fruits.length - 1]);
+
+// let value = fruits[2]
+
+// console.log(value);
+
+// let fruits = ["mango", "apple", "litchi"];
+
+// fruits[1] = "pineapple";
+
+// console.log(fruits);
+
+// let city = "mumbai";
+
+// city[0] = "b";
+
+// console.log(city);
+
+// let numbers = [1, 2, 3, 4];
+
+// numbers[1] = 20
+// numbers[3] = 40
+
+// console.log(numbers)
+
+// create
+// let colors = ["red", "green", "orange", "blue"];
+
+// update
+// colors[colors.length - 1] = "black";
+// console.log(colors);
+
+// add
+
+// colors.push("voilet")
+
+// console.log(colors)
+
+// let firstReturn = colors.pop(); // blue
+// console.log(firstReturn)
+
+// let secondReturn = colors.pop(); // orange
+// console.log(secondReturn)
+
+// colors.push("yellow");
+
+// red , green, yellow
+
+// console.log(colors);
+
+// let fruits = ["
+
+// let indexVal = fruits.indexOf("mango");
+
+// console.log(indexVal);
+
+
+// let isElemAvailable = fruits.includes("orange")
+// console.log(isElemAvailable)
+
+// fruits.unshift("pineapple");
+
+// console.log(fruits);
+
+// let deletedElem = fruits.shift();
+// console.log(deletedElem)
+
+// console.log(fruits)
+
+
+
+// let inventory = ["apple", "banana", "tomato", "potato", "rice"]
+
+
+// let userInput = prompt("Enter the item you want to search...");
+
+
+// if (inventory.includes(userInput)) {
+//   console.log(`Yes, ${userInput} is available`)
+// } else {
+//   console.log(`No, ${userInput} is not available`)
+// }
+
+
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+
+// let arr3 = arr1.concat(arr2)
+
+// console.log(arr3)
+
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// numbers.reverse();
+
+// console.log(numbers)
+
+
+// const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+
+
+// does not affect the original array, instead return the new sliced array
+// let newArray = fruits.slice(2, 4)
+
+
+// console.log(newArray)
+
+
+// splice affects the original array just like pop, shift
+
+// let deletedItems = fruits.splice(2, 2, "kiwi", "stawberry")
+
+
+// console.log(deletedItems)
+// console.log(fruits)
+
+
+
+const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
+
+
+// fruits.splice(3, 0, "Mosambi")
+
+
+// console.log(fruits)
+
+let deletedElem = fruits.splice(2, 1, "Mosambi")
+
+
+console.log(deletedElem)
+
+console.log(fruits)
