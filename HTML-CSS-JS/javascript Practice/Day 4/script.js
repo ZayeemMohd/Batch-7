@@ -267,7 +267,6 @@
 
 // console.log(indexVal);
 
-
 // let isElemAvailable = fruits.includes("orange")
 // console.log(isElemAvailable)
 
@@ -280,20 +279,15 @@
 
 // console.log(fruits)
 
-
-
 // let inventory = ["apple", "banana", "tomato", "potato", "rice"]
 
-
 // let userInput = prompt("Enter the item you want to search...");
-
 
 // if (inventory.includes(userInput)) {
 //   console.log(`Yes, ${userInput} is available`)
 // } else {
 //   console.log(`No, ${userInput} is not available`)
 // }
-
 
 // let arr1 = [1, 2, 3];
 // let arr2 = [4, 5, 6];
@@ -302,45 +296,112 @@
 
 // console.log(arr3)
 
-
 // let numbers = [1, 2, 3, 4, 5];
 
 // numbers.reverse();
 
 // console.log(numbers)
 
-
 // const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
-
 
 // does not affect the original array, instead return the new sliced array
 // let newArray = fruits.slice(2, 4)
 
-
 // console.log(newArray)
-
 
 // splice affects the original array just like pop, shift
 
 // let deletedItems = fruits.splice(2, 2, "kiwi", "stawberry")
 
-
 // console.log(deletedItems)
 // console.log(fruits)
 
-
-
-const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
-
+// const fruits = ["Apple", "Banana", "Orange", "Mango", "Pineapple"];
 
 // fruits.splice(3, 0, "Mosambi")
 
+// console.log(fruits)
+
+// let deletedElem = fruits.splice(2, 1, "Mosambi")
 
 // console.log(fruits)
 
-let deletedElem = fruits.splice(2, 1, "Mosambi")
+// what are the steps to create a variable;
 
+// var || let, const
 
-console.log(deletedElem)
+// let : we can modify anytime
+// const : we cannot modify
 
-console.log(fruits)
+// const city = "hyderabad";
+
+// console.log(city);
+
+// let likeCounter = 0;
+
+// likeCounter++;
+
+// console.log(likeCounter);
+
+// let phoneNumber = 13241234;
+
+// let copyPhoneNumber = phoneNumber;
+
+// copyPhoneNumber = 234234234;
+
+// console.log(copyPhoneNumber);
+
+// console.log(phoneNumber);
+
+// let colors = ["red", "green"];
+
+// let colorsCopy = colors;
+
+// colors.push("yellow")
+
+// colorsCopy.push("yellow")
+
+// console.log(colors); // 2
+
+// console.log(colorsCopy); // 3
+
+// const number = 234;
+
+// number = 3333;
+
+// const fruits = ["apple", "banana", "orange"]
+
+// fruits.push("mango")
+
+// // fruits.push("mosambi")
+
+// console.log(fruits)
+
+let iplArr = [
+  ["kholi", "patidar"],
+  ["head", "abhishek"],
+  ["dhoni", "jadeja"],
+];
+
+// 00, 01
+// 10, 11
+// 20, 21
+
+iplArr[2].splice(0, 1, "siraj");
+
+console.log(iplArr);
+
+// let player = ["kholi"];
+
+// console.log(iplArr[0][0]);
+// console.log(iplArr[0][1]);
+
+// console.log(iplArr[1][0]);
+// console.log(iplArr[1][1]);
+
+// console.log(iplArr[2][0]);
+// console.log(iplArr[2][1]);
+
+// iplArr[1].push("cummins");
+
+// console.log(iplArr)
