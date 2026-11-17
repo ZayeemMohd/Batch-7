@@ -167,37 +167,37 @@
 // 3. check balance
 // 4. exit
 
-let userChoice;
-let balance = 500;
+// let userChoice;
+// let balance = 500;
 
-do {
-  userChoice = prompt(`
-1. Add money (deposit) \n
-2. remove money (withdraw) \n
-3. check balance \n
-4. exit`);
+// do {
+//   userChoice = prompt(`
+// 1. Add money (deposit) \n
+// 2. remove money (withdraw) \n
+// 3. check balance \n
+// 4. exit`);
 
-  if (userChoice == "3") {
-    console.log(balance);
-  } else if (userChoice == "2") {
-    console.log("user chose to withdraw amount");
+//   if (userChoice == "3") {
+//     console.log(balance);
+//   } else if (userChoice == "2") {
+//     console.log("user chose to withdraw amount");
 
-    let removeAmout = prompt("enter withdraw amount ");
+//     let removeAmout = prompt("enter withdraw amount ");
 
-    balance = balance - removeAmout;
+//     balance = balance - removeAmout;
 
-    console.log(`${removeAmout} removed from bank, new balance is ${balance}`);
-  } else if (userChoice == "1") {
-    console.log("user chose to deposite money");
+//     console.log(`${removeAmout} removed from bank, new balance is ${balance}`);
+//   } else if (userChoice == "1") {
+//     console.log("user chose to deposite money");
 
-    let depositeAmount = Number(prompt("enter the deposite amount: "));
+//     let depositeAmount = Number(prompt("enter the deposite amount: "));
 
-    balance = balance + depositeAmount;
+//     balance = balance + depositeAmount;
 
-    console.log(
-      `${depositeAmount} is added to your balance, new balance is ${balance}`,
-    );
-  }
-} while (userChoice !== "4");
+//     console.log(
+//       `${depositeAmount} is added to your balance, new balance is ${balance}`,
+//     );
+//   }
+// } while (userChoice !== "4");
 
-console.log("user chose exit, remove your card, bye...");
+// console.log("user chose exit, remove your card, bye...");
