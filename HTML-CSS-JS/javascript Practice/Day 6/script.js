@@ -159,35 +159,142 @@
 
 // console.log(students);
 
-let coursesArr = [
+// let coursesArr = [
+//   {
+//     courseId: 1,
+//     courseName: "MERN Stack",
+//     courseDuration: "4 months",
+//     coursePrice: 4000,
+//   },
+//   {
+//     courseId: 2,
+//     courseName: "Data Analytics",
+//     courseDuration: "3 months",
+//     coursePrice: 3000,
+//   },
+//   {
+//     courseId: 3,
+//     courseName: "Data Science",
+//     courseDuration: "3.5 months",
+//     coursePrice: 3500,
+//   },
+//   {
+//     courseId: 4,
+//     courseName: "Cybersecurity",
+//     courseDuration: "6 months",
+//     coursePrice: 5000,
+//   },
+// ];
+
+// for (let obj of coursesArr) {
+//   console.log(
+//     `${obj.courseId}: This course is about ${obj.courseName}, you can complete this course in ${obj.courseDuration} and you have to pay ₹${obj.coursePrice}/- amount to enroll in this course.`,
+//   );
+// }
+
+//  Create, Read, Update, Delete (CRUD)
+
+// array (data structure)
+// let arr = ["apple", "banana", "mango"]; // create
+
+// // read
+// let result = arr[2];
+// console.log(result);
+
+// // update
+// arr[1] = "orange";
+
+// // delete
+// arr.splice(0, 1);
+
+// object literals (another data structure)
+// CRUD
+
+// let students = ["khalid", "asif", "faisal"]
+
+// let ages = [18, 21, 22]
+
+// let student1Arr = ["khalid", 23];
+
+// let student1 = {
+//   name: "khalid",
+//   age: 33,
+//   address: "charminar",
+//   phoneNumber: "234213434343",
+//   isPresent: true,
+//   123: "hindi",
+//   subjects: ["Math", "Physics", "Chem"],
+//   "@country": "india",
+//   marks: {
+//     math: 80,
+//     physics: 50,
+//     chem: 20,
+//   },
+// };
+
+// let myKey = "name"
+
+// console.log(student1["123"])
+// console.log(student1["@country"])
+// console.log(student1[myKey])
+
+// console.log(student1);
+// console.log(student1.address);
+
+// student1.age = 34
+// student1.isPresent = false
+
+// student1.city = "hyderabad"
+
+// delete student1.phoneNumber
+// delete student1.marks
+// delete student1.subjects
+
+// console.log(student1)
+
+// let parentObject = {
+//   childObj1: {
+//     studentName: "Khalid",
+//     studentAge: 25
+//   },
+//   childObj2: {
+//     studentName: "Sami",
+//     studentAge: 21
+//   },
+//   childObj3: {
+//     studentName: "Faisal",
+//     studentAge: 18
+//   }
+// }
+
+// console.log(parentObject.childObj3.studentName)
+
+let studentArr = [
   {
-    courseId: 1,
-    courseName: "MERN Stack",
-    courseDuration: "4 months",
-    coursePrice: 4000,
+    studentName: "Khalid",
+    studentAge: 25,
   },
   {
-    courseId: 2,
-    courseName: "Data Analytics",
-    courseDuration: "3 months",
-    coursePrice: 3000,
+    studentName: "asim",
+    studentAge: 25,
   },
   {
-    courseId: 3,
-    courseName: "Data Science",
-    courseDuration: "3.5 months",
-    coursePrice: 3500,
+    studentName: "barkat",
+    studentAge: 35,
   },
   {
-    courseId: 4,
-    courseName: "Cybersecurity",
-    courseDuration: "6 months",
-    coursePrice: 5000,
-  },
+    studentName: "Suleman",
+    studentAge: 40
+  }
 ];
 
-for (let obj of coursesArr) {
+studentArr.push({
+  studentName: "osman",
+  studentAge: 21,
+});
+
+for (let element of studentArr) {
   console.log(
-    `${obj.courseId}: This course is about ${obj.courseName}, you can complete this course in ${obj.courseDuration} and you have to pay ₹${obj.coursePrice}/- amount to enroll in this course.`,
+    `The student name is ${element.studentName}, his age is ${element.studentAge}`,
   );
 }
