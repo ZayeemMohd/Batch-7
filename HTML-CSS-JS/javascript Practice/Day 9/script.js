@@ -185,17 +185,78 @@ let prices = [99, 149, 299]; // $99/-
 
 // console.log(filteredArray);
 
-let ages = [2, 5, 18, 3];
+// let ages = [2, 5, 18, 3];
 
+// const result = ages.every((elem)=>{
+//     if(elem >= 18){
+//         return true
+//     } else {
+//         return false
+//     }
+// })
 
-const result = ages.every((elem)=>{
-    if(elem >= 18){
-        return true
-    } else {
-        return false
-    }
-})
+// console.log(result)
 
-console.log(result)
+// push, pop, slice, splice, shift, unshift, indexOf(9), includes
+
+// Higher Order Methods/functions
+// forEach(callback), map(callback,), filter(callback), some(callback), every(callback)
+
+// Sum of all numbers
+
+// accumualtor variable
+
+// let numbers = [1, 2, 3, 4, 5];
+
+// const result = numbers.reduce((accumualtor, element) => {
+//   return accumualtor + element;
+// }, "");
+
+// console.log(result)
+
+// let ages = [25, 30, 18, 20];
+
+// let allAdults = ages.every((age) => age >= 18); // true
+// let hasTeenager = ages.some((age) => age < 20); // true
+
+// console.log(allAdults, hasTeenager);
+
+// Calculate average
+// let scores = [85, 90, 78, 92, 88];
+// let sum = scores.reduce((acc, elem) => {
+//   return acc + elem;
+// }, 0);
+
+// let average = sum / scores.length;
+// console.log(average);
+
+// Calculate total price
+// let cart = [
+//   { item: "Shirt", price: 500 },
+//   { item: "Shoes", price: 1200 },
+//   { item: "Hat", price: 300 },
+// ];
+
+// const totalAmount = cart.reduce((acc, elemObj) => {
+//   return acc + elemObj.price;
+// }, 0);
+
+// console.log(totalAmount);
+
+// Find maximum number
+// let numbers = [45, 78, 23, 89, 34, 12, 100];
+
+// let result = numbers.reduce((acc, nextElem) => {
+
+//   if(nextElem > acc){
+//     return nextElem
+//   } else {
+//     return acc
+//   }
+
+// }, numbers[0]);
+
+// console.log(result);
+
 
 
