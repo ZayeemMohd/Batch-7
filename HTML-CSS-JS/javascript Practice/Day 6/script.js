@@ -269,32 +269,100 @@
 
 // console.log(parentObject.childObj3.studentName)
 
-let studentArr = [
-  {
-    studentName: "Khalid",
-    studentAge: 25,
-  },
-  {
-    studentName: "asim",
-    studentAge: 25,
-  },
-  {
-    studentName: "barkat",
-    studentAge: 35,
-  },
-  {
-    studentName: "Suleman",
-    studentAge: 40
-  }
-];
+// let studentArr = [
+//   {
+//     studentName: "Khalid",
+//     studentAge: 25,
+//   },
+//   {
+//     studentName: "asim",
+//     studentAge: 25,
+//   },
+//   {
+//     studentName: "barkat",
+//     studentAge: 35,
+//   },
+//   {
+//     studentName: "Suleman",
+//     studentAge: 40
+//   }
+// ];
 
-studentArr.push({
-  studentName: "osman",
-  studentAge: 21,
-});
+// studentArr.push({
+//   studentName: "osman",
+//   studentAge: 21,
+// });
 
-for (let element of studentArr) {
-  console.log(
-    `The student name is ${element.studentName}, his age is ${element.studentAge}`,
-  );
-}
+// for (let element of studentArr) {
+//   console.log(
+//     `The student name is ${element.studentName}, his age is ${element.studentAge}`,
+//   );
+// }
+
+// built-in code / pre written code / pre defined object
+// let str = "hyderabad"
+
+// Math.PI // property
+// str.toUpperCase() // method
+// str.length
+
+// console.log(Math.PI);
+// console.log(Math.E);
+
+// const result = Math.abs(-9.2);
+
+// console.log(result);
+
+// const result = Math.pow(2, 8)
+
+// console.log(result)
+
+// console.log(Math.random()) // 0.1 - 0.9 // 0 - 9  * 10
+
+// 0 - 9 (1 - 10)
+
+// console.log(Math.floor(Math.random() * 6) + 1);
+
+// let min = 0;
+// let max = 255;
+
+// let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
+
+// console.log(randomNumber);
+
+// console.log(Math.random() * 10)
+// console.log(Math.random() * 10)
+// console.log(Math.random() * 10)
+// console.log(Math.random() * 10)
+// console.log(Math.random() * 10)
+
+// for (let i = 1; i <= 10; i++) {
+//   let random = Math.floor(Math.random() * (10 - -10 + 1)) + -10;
+//   console.log(random);
+// }
+
+// let colors = ["apple", "banana", "orange", "grapes"];
+
+// let min = 0;
+// let max = 3;
+
+// let randomIndex = Math.floor(Math.random() * (max - min + 1)) + min;
+
+// console.log(colors[randomIndex]);
+
+// let maxNum = Math.max(2, 3, 9, 4);
+// console.log(maxNum);
+
+// let minNum = Math.min(2, 3, 9, 4)
+// console.log(minNum)
+
+let scores = [22, 50, 90, 10];
+
+// console.log(...scores)
+
+// let max = Math.max(scores)
+// let max = Math.max(scores[0], scores[1], scores[2], scores[3]);
+let max = Math.max(...scores)
+// let max = Math.max(22, 50, 90, 10);
+
+console.log(max);

@@ -120,38 +120,38 @@
 // console.log(city[0]);
 // console.log(city[0]);
 
-// let iplTeams = [
-//   ["Kholi", "Pathidar"],
-//   ["Head", "Abhishek"],
-//   ["Dhoni", "Jadeja"],
-// ];
+let iplTeams = [
+  ["Kholi", "Pathidar"],
+  ["Head", "Abhishek"],
+  ["Dhoni", "Jadeja"],
+];
 
-// for (let team of iplTeams) {
-//   for (let player of team) {
-//     console.log(player);
-//   }
-// }
-
-// let numbers = [23, 67, 12, 89, 45, 91, 34];
-
-// let sum = 0;
-
-// for (let num of numbers) {
-//   sum = sum + num;
-// }
-
-// console.log(sum);
-
-const favMovie = "bahubali";
-
-let userGuess = prompt("Enter your guess...");
-
-while (favMovie != userGuess && userGuess !== "quit") {
-  userGuess = prompt("Enter your guess again... you are wrong");
+for (let team of iplTeams) {
+  for (let player of team) {
+    console.log(player);
+  }
 }
 
-if (userGuess == "quit") {
-  console.log("you lost.. you gave up");
-} else {
-  console.log("You are right!.. You won");
+let numbers = [23, 67, 12, 89, 45, 91, 34];
+
+let sum = 0;
+
+for (let num of numbers) {
+  sum = sum + num;
 }
+
+console.log(sum);
+
+// const favMovie = "bahubali";
+
+// let userGuess = prompt("Enter your guess...");
+
+// while (favMovie != userGuess && userGuess !== "quit") {
+//   userGuess = prompt("Enter your guess again... you are wrong");
+// }
+
+// if (userGuess == "quit") {
+//   console.log("you lost.. you gave up");
+// } else {
+//   console.log("You are right!.. You won");
+// }
